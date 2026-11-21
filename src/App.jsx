@@ -3,7 +3,7 @@ import { removeBackground } from '@imgly/background-removal';
 import imageCompression from 'browser-image-compression';
 import JSZip from 'jszip';
 import MagicEditor from './components/tools/MagicEditor';
-import { Upload, Layers, Sparkles, Eraser, Image as ImageIcon, LayoutTemplate, Github, Loader2, Check } from 'lucide-react';
+import { Upload, Layers, Sparkles, Eraser, Image as ImageIcon, LayoutTemplate, Code2, Loader2, Check } from 'lucide-react';
 
 export default function App() {
   const [tab, setTab] = useState('remove');
@@ -61,8 +61,8 @@ export default function App() {
             <span className="bg-indigo-600 text-white px-2 py-0.5 rounded-lg">Pixel</span><span>HD</span>
             <span className="text-[10px] uppercase bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full">100% Free HD</span>
           </div>
-          <a href="https://github.com" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-xs font-medium text-slate-600 bg-slate-100 px-3 py-1.5 rounded-full">
-            <Github className="w-4 h-4" /> Open Source
+          <a href="https://Code2.com" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-xs font-medium text-slate-600 bg-slate-100 px-3 py-1.5 rounded-full">
+            <Code2 className="w-4 h-4" /> Open Source
           </a>
         </div>
       </header>
@@ -124,8 +124,8 @@ export default function App() {
       <footer className="fixed bottom-0 left-0 right-0 z-50 h-9 bg-slate-900/95 text-white border-t border-slate-800 flex items-center justify-center px-4 text-xs">
         <div className="max-w-6xl w-full flex items-center justify-between">
           <span className="truncate text-slate-300">⚡ <strong>PixelHD Open Source:</strong> Espaço reservado para seu banner fixo (36px).</span>
-          <a href="https://github.com" target="_blank" rel="noreferrer" className="ml-3 shrink-0 bg-indigo-500 text-white font-semibold px-2.5 py-0.5 rounded text-[11px] flex items-center gap-1">
-            <Check className="w-3 h-3" /> GitHub
+          <a href="https://Code2.com" target="_blank" rel="noreferrer" className="ml-3 shrink-0 bg-indigo-500 text-white font-semibold px-2.5 py-0.5 rounded text-[11px] flex items-center gap-1">
+            <Check className="w-3 h-3" /> Code2
           </a>
         </div>
       </footer>
